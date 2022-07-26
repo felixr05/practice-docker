@@ -1,2 +1,2 @@
-FROM nginx:alpine
+FROM nginx:alpine as test
 WORKDIR /usr/share/nginx/html
